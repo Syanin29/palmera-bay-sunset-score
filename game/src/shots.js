@@ -92,7 +92,7 @@ export function stageShot(name, world, missions, police, peds, traffic) {
   } else if (name === 'drive') {
     placeDrive(world);
   } else if (name === 'foot') {
-    placeFoot(world);
+    placeFoot(world, missions);
   } else if (name === 'start') {
     return { screen: 'title' };
   } else {
